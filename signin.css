@@ -1,0 +1,121 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.signin_body {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+.signin_modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin_container {
+  max-width: 900px;
+}
+.signin_main {
+  background-color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 800px;
+}
+.signin_top {
+  height: 50px;
+  background-color: #effff4;
+  color: #008a45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+}
+.signin_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 2rem 2rem;
+}
+.signin_left_cell {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signin_left_cell h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.signin_inputArea {
+  background-color: #f7f8fa;
+}
+.signin_inputArea div {
+  border: 1px solid #d9d9db;
+  height: 50px;
+}
+.signin_inputArea div input {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 1rem;
+}
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+.signin_button {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #2f6ce5;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.signin_external {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d9d9db;
+}
+.forget {
+  text-align: center;
+  font-weight: bold;
+}
+.right_cell {
+  padding: 1rem;
+}
+
+.right_cell span {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_cell span span {
+  font-weight: bold;
+  margin: 0 0.3rem;
+}
+.right_cell div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.right_cell div img {
+  margin: auto;
+}
