@@ -1,0 +1,67 @@
+/** @format */
+
+@media screen and (max-width: 1000px) {
+  section {
+    width: 80%;
+  }
+  .card_btn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  section {
+    width: 100%;
+  }
+  .card_left_section {
+    display: none;
+  }
+  .cards {
+    width: 90%;
+    height: 70vh;
+  }
+  .signup_top {
+    display: none;
+  }
+  .signup_container {
+    align-items: flex-end;
+  }
+  .signup_main {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .right_cell {
+    display: none;
+  }
+  .signup_left_cell {
+    width: 100%;
+  }
+  .signin_top {
+    display: none;
+  }
+  .signin_container {
+    align-items: flex-end;
+  }
+  .signin_main {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .right_cell {
+    display: none;
+  }
+  .signin_left_cell {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  section {
+    width: 100%;
+  }
+}
