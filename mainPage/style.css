@@ -1,3 +1,5 @@
+/** @format */
+
 .center_image {
   position: relative;
   height: 68vh;
@@ -57,7 +59,7 @@ li {
 }
 
 .search_formInput {
-  width: 45%;
+  width: max-content;
 }
 
 .search_formInputdiv {
@@ -92,31 +94,32 @@ main {
   flex-direction: row;
   align-items: flex-start;
   gap: 50px;
-  /* background-color: blue; */
 }
-section{
-   /* background-color: yellow; */
-   display: flex;
-   flex-direction: row;
-   gap: 50px;
-   max-width: 1380px;
-   margin: auto;
+section {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: auto;
 }
 .cards {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 60%;
 }
 .cards .card_job {
   background-color: white;
-  width: 500px;
   height: auto;
   box-shadow: 0px 0px 10px 0px #e5e5e5;
   border-radius: 10px;
   margin-left: 20px;
 }
+.card_job {
+  width: 100%;
+}
 .card {
-  width: 500px;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -132,12 +135,12 @@ section{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
+  background-image: url("../assets/image/Rectangle 5.png");
 }
 .card_text {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  /* gap: 5px; */
 }
 .card_type {
   display: flex;
@@ -220,23 +223,24 @@ section{
 }
 
 /* card left section */
-.card_left_section{
+.card_left_section {
   margin-top: 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 40%;
 }
-.card_search{
-   width: 100%;
-   height: 40px;
-   position: relative;
-   border-bottom: solid 2px #e5e5e5;
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
+.card_search {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  border-bottom: solid 2px #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.card_search input{
+.card_search input {
   width: 100%;
   height: 100%;
   position: relative;
@@ -244,43 +248,43 @@ section{
   border: none;
   padding: 10px 0 8px 28px;
 }
-.card_search .mark{
+.card_search .mark {
   position: absolute;
   top: 9px;
   right: 5px;
   cursor: pointer;
 }
-.card_search .location{
+.card_search .location {
   position: absolute;
   top: 10px;
   left: 5px;
   cursor: pointer;
 }
-.card_people h5 span{
+.card_people h5 span {
   margin-left: 8px;
 }
-.suggestion{
+.suggestion {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.suggestion_1{
+.suggestion_1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.suggestion_1 div img{
+.suggestion_1 div img {
   width: 30px;
   height: 30px;
   cursor: pointer;
 }
-.suggestion_1 div span{
+.suggestion_1 div span {
   font-size: 14px;
   font-weight: 600;
 }
-.suggestion_1 button{
+.suggestion_1 button {
   border: none;
   border-radius: 20px;
   font-size: 14px;
