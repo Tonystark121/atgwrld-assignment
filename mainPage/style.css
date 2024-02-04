@@ -36,6 +36,10 @@
   padding-top: 18%;
 }
 
+.mobupper {
+  display: none;
+}
+
 .search_icon {
   position: absolute;
   color: grey;
@@ -60,11 +64,20 @@ li {
 
 .search_formInput {
   width: max-content;
+  width: 50%;
 }
 
 .search_formInputdiv {
   margin: auto;
   justify-content: center;
+}
+
+.side_txt {
+  margin-right: 3%;
+}
+
+.edit_logo {
+  display: none;
 }
 
 /* cards css */
@@ -137,6 +150,45 @@ section {
   overflow: hidden;
   background-image: url("../assets/image/Rectangle 5.png");
 }
+.card_img_1 {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  background-image: url("../assets/Rectangle\ 5.png");
+}
+.card_img_2 {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  background-image: url("../assets/Rectangle\ 5\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.one_card_data {
+  padding: 2%;
+}
+
+.one_card_data_inside {
+  text-align: center;
+  padding-top: 2%;
+  color: rgb(255, 34, 0);
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.one_card_data_inside_1 {
+  text-align: center;
+  padding-top: 2%;
+  color: green;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
 .card_text {
   padding: 10px;
   display: flex;
@@ -211,7 +263,7 @@ section {
 .card_text .items .icons .share {
   width: 30px;
   height: 30px;
-  background-color: gray;
+  background-color: #edeef0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,6 +321,10 @@ section {
   flex-direction: column;
   gap: 15px;
 }
+.card_search input{
+  border-bottom: 1px solid rgb(232, 223, 223);
+}
+
 .suggestion_1 {
   display: flex;
   flex-direction: row;
@@ -288,7 +344,11 @@ section {
   border: none;
   border-radius: 20px;
   font-size: 14px;
-  background-color: gray;
+  background-color: #edeef0;
   padding: 3px 10px;
   cursor: pointer;
+}
+
+.suggestion_wala_cross {
+  background-color: white;
 }
