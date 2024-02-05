@@ -300,6 +300,17 @@ section {
   border: none;
   padding: 10px 0 8px 28px;
 }
+.card_remark{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  color: gray;
+  font-size: 12px;
+}
+.card_remark i{
+  margin-top: 4px;
+}
 .card_search .mark {
   position: absolute;
   top: 9px;
