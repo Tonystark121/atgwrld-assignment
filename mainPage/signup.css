@@ -133,16 +133,13 @@
 
 .signup_container .signup_cross_icon {
   cursor: pointer;
-  font-size: 1.5rem;
   color: #fff;
   height: 30px;
   width: 30px;
   background-color: #fff;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-right: -45%;
+  text-align: center;
 }
 .signup_container .signup_cross_icon i {
   color: grey;

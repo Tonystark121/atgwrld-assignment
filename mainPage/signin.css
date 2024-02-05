@@ -99,6 +99,17 @@
   margin: auto;
 }
 
+.signup_container .signin_cross_icon {
+  cursor: pointer;
+  color: #fff;
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: -45%;
+  text-align: center;
+}
+
 .signup_container .signin_cross_icon i {
   color: grey;
   font-size: 1rem;
