@@ -16,6 +16,7 @@
 }
 
 @media screen and (max-width: 630px) {
+  
   section {
     width: 100%;
   }
@@ -26,11 +27,13 @@
     width: 90%;
     height: 70vh;
   }
+  .signup_container {
+    width: 100%;
+    padding-bottom: 2rem;
+    justify-content: flex-end;
+  }
   .signup_top {
     display: none;
-  }
-  .signup_container {
-    align-items: flex-end;
   }
   .signup_main {
     width: 100%;
@@ -48,6 +51,7 @@
   .signin_container {
     width: 100%;
     padding-bottom: 2rem;
+    justify-content: flex-end;
   }
   .signin_main {
     width: 100%;
@@ -117,18 +121,20 @@
     cursor: pointer;
   }
 
-  .signup_container .sign_cross_icon {
-    position: absolute;
-    top: 22%;
-    right: 5%;
+  .signup_container .signup_cross_icon {
     height: 1.8rem;
     width: 1.8rem;
-    background-color: #fff;
     border-radius: 50%;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-right: -70%;
+  }
+  .signup_container .signup_cross_icon i{
+    margin-top: 115px !important;
+    color: black;
+    z-index: 100;
   }
 
   .container_fluid{
@@ -173,8 +179,11 @@
   }
 
   .signup_container .sign_cross_icon {
-    top: 25%;
-    right: 5%;
+    top: 20%;
+    right: 4%;
+  }
+  .signin_modal{
+    top: 15%;
   }
 
   .edit_logo{
